@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "colourarity",
+	"version": "${version}",
+	"name": "Colourarity",
+	"description": "Registry Rarity",
+	"authors": [
+		"NetheriteQF"
+	],
+	"contact": {
+		"homepage": "https://github.com/Netherite-QF",
+		"sources": "https://github.com/Netherite-QF/Colourarity"
+	},
+	"license": "MIT license",
+	"icon": "assets/colourarity/icon.png",
+	"environment": "*",
+	"entrypoints": {
+	},
+	"mixins": [
+		"colourarity.mixins.json",
+		{
+			"config": "colourarity.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"minecraft": "*",
+		"java": ">=21"
+	}
+}

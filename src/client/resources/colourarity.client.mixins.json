@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.netheriteqf.colourarity.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "InGameHudMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
